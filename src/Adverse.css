@@ -1,0 +1,36 @@
+
+div.a1{
+    margin: auto;
+    width: 1050px;
+    background-color:powderblue;
+}div.a2{
+     background-color:gray;
+ }
+input.firstname,input.lastname,input.city,input.country,input.email,input.phone{
+    width: 400px;
+}
+input.address{
+    width: 800px;
+}
+span.a3{
+    width: 500px;
+    background-color:gray;
+    float: left;
+}
+span.a4{
+    width: 400px;
+    background-color:gray;
+    float: right;
+}
+div.itmel{
+
+    width: 500px;
+    background-color:gray;
+    float: left;
+}div.itmer{
+
+    width: 400px;
+    background-color:gray;
+    float:right;
+
+}

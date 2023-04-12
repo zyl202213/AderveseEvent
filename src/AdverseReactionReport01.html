@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdverseReactionReport</title>
+  <link rel="stylesheet" type="text/css" href="Adverse01.css">
+  <script src="myscript.js"></script>
+
+</head>
+<body>
+<div class="header">
+  <h1>0 Reporting System</h1>
+</div>
+
+<div class="a1">
+  <ul>
+    <li><a class="active" href="#home">主页</a></li>
+    <li><a href="#contact">联系</a></li>
+    <li><a href="#about">关于</a></li>
+  </ul>
+
+  <h2 class="a6">Report an Adverse Event - Patient Information</h2>
+
+  <div class="a2">
+  <form action="#"><p class="a0">Note: Fields marked with an * are essential and should be completed.</p>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="lcity">City</label>
+      <select id="lcity" name="city">
+        <option value="重庆">重庆</option>
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+      </select>
+
+
+    <label for="lStreet address">Street address</label>
+    <input type="text" id="lStreet address" name="Street address" placeholder="Your Street address..">
+
+    <label for="Zip code">Zip code</label>
+    <input type="text" id="Zip code" name="Zip code" placeholder="Your Zip code..">
+
+    <label for="Phone">Phone</label>
+    <input type="text" id="Phone" name="Phone" placeholder="Your Phone..">
+
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+    <div>*Sex
+      <input type="radio" name="sex" value="male">male
+    <input type="radio" name="sex" value="female">female</div>
+
+    <div><div>*Date of birth
+      <input type="radio" name="date of birth" value="mm/dd/yyyy">mm/dd/yyyy
+      <input type="radio" name="date of birth" value="mm/yyyy">mm/yyyy</div>
+    <input type="text" id="date of birth" name="date of birth" placeholder="date of birth..">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <table border="1" class="table01">
+      <tbody >
+      <caption>可疑疫苗接种情况(按最可疑的疫苗顺序填写)</caption>
+      <tr >
+        <td></td>
+        <td>疫苗名称</td>
+        <td>规格（剂/支或粒）</td>
+        <td>生产企业</td>
+        <td>疫苗批号</td>
+        <td>接种日期</td>
+        <td>接种组织形式</td>
+        <td>接种剂次</td>
+        <td>接种剂量（ml或粒）</td>
+        <td>接种途径</td>
+        <td>接种部位</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+        <td><input></td>
+      </tr>
+      </tbody>
+
+
+    </table>
+
+
+
+
+
+
+    
+
+
+
+
+    <div>*Date of vaccination
+      <input type="radio" name="date of vaccination" value="mm/dd/yyyy">mm/dd/yyyy
+      <input type="radio" name="date of vaccination" value="mm/yyyy">mm/yyyy</div>
+    <input type="text" id="date of vaccination" name="date of vaccination" placeholder="date of vaccination..">
+
+    <div>Time
+      <input type="radio" name="AM" value="AM">AM
+      <input type="radio" name="PM" value="PM">PM</div>
+    <input type="text" id="Time" name="Time" placeholder="hh/mm..">
+
+    <div>*Date adverse event started
+      <input type="radio" name="Date adverse event started" value="mm/dd/yyyy">mm/dd/yyyy
+      <input type="radio" name="Date adverse event started" value="mm/yyyy">mm/yyyy</div>
+    <input type="text" id="Date adverse event started" name="Date adverse event started" placeholder="Date adverse event started..">
+
+    <div>Time
+      <input type="radio" name="AM" value="AM">AM
+      <input type="radio" name="PM" value="PM">PM</div>
+    <input type="text" id="Time of onset" name="Time of onset" placeholder="hh/mm..">
+
+    <div>*Time of vaccination
+      <input type="radio" name="Time of vaccination" value="mm/dd/yyyy">mm/dd/yyyy
+      <input type="radio" name="Time of vaccination" value="mm/yyyy">mm/yyyy</div>
+    <input type="text" id="Time of vaccination" name="Time of vaccination" placeholder="hh/mm/yyyy..">
+
+    <div>Today's date
+      <input type="text" id="Today's date" name="Today's date" placeholder="Today's date.."></div>
+
+
+    <p>Pregnant at time of vaccination?:<br>
+      (If yes, describe the event, any pregnancy complications, and estimated due date if known in item 18 )</p>
+    <input type="radio" name="yes" value="yes">yes
+    <input type="radio" name="no" value="no">no
+    <input type="radio" name="unknown" value="unknown">unknown
+
+    <p>Prescriptions, over-the-counter medications, dietary supplements, or herbal remedies being taken at the time of vaccination:</p>
+    <textarea></textarea>
+
+    <p>Allergies to medications, food, or other products:</p>
+    <textarea></textarea>
+
+    <p>Other illnesses at the time of vaccination and up to one month prior:</p>
+    <textarea></textarea>
+
+    <p>Chronic or long-standing health conditions:</p>
+      <textarea></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+    <div class="footer">
+      <p>底部区域</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
